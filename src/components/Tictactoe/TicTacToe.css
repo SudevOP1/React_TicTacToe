@@ -1,0 +1,110 @@
+/* --------------------------------------------- */
+.container {
+    display: flex;
+}
+/* --------------------------------------------- */
+.boxes {
+    min-height: 100vh;
+    min-width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 474px;
+}
+.box {
+    height: 150px;
+    width: 150px;
+    background: #212f4a;
+    margin: 14px 7px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box img {
+    width: 90px;
+    height: 90px;
+}
+/* --------------------------------------------- */
+.right {
+    min-height: 100vh;
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    color: #44d13a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+.heading-1 {
+    font-size: 60px;
+}
+.heading-2 {
+    font-size: 48px;
+}
+.heading span {
+    margin-left: 13px;
+    transition-duration: 200ms;
+}
+.heading span:hover {
+    text-shadow: 0px 0px 30px #51ff44;
+}
+/* --------------------------------------------- */
+.scores {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+.score-div {
+    width: 30%;
+}
+.score {
+    background: #bcbcbc;
+    color: #212f4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    font-size: 50px;
+    font-weight: 600;
+    border-radius: 20px;
+    transition-duration: 300ms;
+}
+.player-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+/* --------------------------------------------- */
+.reset-btn {
+    background: #212f4a;
+    color: #5c85d6;
+    font-size: 40px;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 1000px;
+    margin-top: 70px;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+.reset-btn:hover {
+    background: #2a3d61;
+    color: #6799ff;
+}
+.reset-btn:active {
+    background: #3b5b96;
+    box-shadow: 0px 0px 30px #5784d8;
+}
